@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\afreh\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Common Files\Tom Sawyer Software\8.0.0;C:\Program Files (x86)\Common Files\Win Wrap\10.25.004;C:\Program Files\Polyspace\R2019a\runtime\win64;C:\Program Files\Polyspace\R2019a\bin;C:\Program Files\Polyspace\R2019a\polyspace\bin;C:\Users\afreh\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Polyspace\R2019a\toolbox\spfirst;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\Go\bin;C:\go-ipfs;C:\Program Files\nodejs;C:\Users\afreh\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\afreh\AppData\Local\Programs\Python\Python39;C:\Users\afreh\AppData\Local\Microsoft\WindowsApps;C:\Users\afreh\AppData\Local\GitHubDesktop\bin;C:\Users\afreh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\afreh\AppData\Local\Yarn\bin;C:\Users\afreh\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\afreh\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Polyspace\R2019a\toolbox\spfirst;C:\Users\afreh\go\bin;C:\Users\afreh\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.17.5
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/esversion: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66096:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+      "name": "ecom",
+      "version": "1.0.0",
+      "description": "",
+      "main": "truffle-config.js",
+      "directories": {
+          "test": "test"
+      },
+      "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "dependencies": {
+          "@openzeppelin/contracts": "^4.2.0",
+          "cjs-loader": "^0.1.0",
+          "esversion": "6"
+      }
+  
+  
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
